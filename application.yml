@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: geeting-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
+geeting-service:
+  greeting: "Olá"    
+  default-value: "Mundo"  
